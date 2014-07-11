@@ -50,7 +50,7 @@ body {
 
 /* line 373, ../scss/foundation/components/_global.scss */
 body {
-  background: white;
+  background: #efefef;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -6671,3 +6671,20 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
+/* line 7, ../scss/foundation/components/personalized-settings.sass */
+.top-bar-section .right .row .columns.search-bar {
+  background: white;
+  -webkit-border-radius: 20px 0 0 20px;
+  border-radius: 20px 0 0 20px;
+  margin-right: none; }
+/* line 13, ../scss/foundation/components/personalized-settings.sass */
+.top-bar-section .right .row .columns.search-button {
+  background: #cccccc;
+  font-color: #666666;
+  font-size: 100%;
+  font-align: left;
+  padding: none;
+  -webkit-border-radius: 0 20px 20px 0;
+  border-radius: 0 20px 20px 0;
+  margin-left: none;
+  float: right; }
